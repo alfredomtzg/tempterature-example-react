@@ -6,7 +6,29 @@ export default function App() {
   const[temperatureColor, setTemperatureColor] = useState("cold");
 
   const increaseTemperature = () => {
-    setTemperatureValue( temperatureValue + 1 )
+    
+    const newTemperature = temperatureValue + 1;
+    if(temperatureValue === 30) {
+      setTemperatureColor("fire");
+      return;
+    }
+    if(newTemperature >= 15){
+      setTemperatureColor("hot");
+    }
+    
+    setTemperatureValue( newTemperature )
+  }
+
+  const decreaseTemperature = () => {
+    
+    const newTemperature = temperatureValue - 1;
+    if(newTemperature <= 29){
+      setTemperatureColor("hot");
+      if(newTemperature < 15){
+        setTemperatureColor("cold");
+      }
+    }
+    setTemperatureValue( newTemperature )
   }
 
   return(
@@ -16,7 +38,7 @@ export default function App() {
       </div>
       <div className="button-container" >
         <button onClick={() => increaseTemperature()} >+</button>
-        <button onClick={() => setTemperatureValue(temperatureValue-1)}>-</button>
+        <button onClick={() => decreaseTemperature()}>-</button>
       </div>
     </div>
   )
