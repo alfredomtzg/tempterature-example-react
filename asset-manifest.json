@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/empterature-example-react/static/css/main.724100a6.chunk.css",
-    "main.js": "/empterature-example-react/static/js/main.0739d02d.chunk.js",
-    "main.js.map": "/empterature-example-react/static/js/main.0739d02d.chunk.js.map",
-    "runtime-main.js": "/empterature-example-react/static/js/runtime-main.c957f4ef.js",
-    "runtime-main.js.map": "/empterature-example-react/static/js/runtime-main.c957f4ef.js.map",
-    "static/js/2.4cca6d69.chunk.js": "/empterature-example-react/static/js/2.4cca6d69.chunk.js",
-    "static/js/2.4cca6d69.chunk.js.map": "/empterature-example-react/static/js/2.4cca6d69.chunk.js.map",
-    "index.html": "/empterature-example-react/index.html",
-    "precache-manifest.31f86c0bcef47b13a8d86113076b389a.js": "/empterature-example-react/precache-manifest.31f86c0bcef47b13a8d86113076b389a.js",
-    "service-worker.js": "/empterature-example-react/service-worker.js",
-    "static/css/main.724100a6.chunk.css.map": "/empterature-example-react/static/css/main.724100a6.chunk.css.map",
-    "static/js/2.4cca6d69.chunk.js.LICENSE.txt": "/empterature-example-react/static/js/2.4cca6d69.chunk.js.LICENSE.txt"
+    "main.css": "/tempterature-example-react/static/css/main.724100a6.chunk.css",
+    "main.js": "/tempterature-example-react/static/js/main.0739d02d.chunk.js",
+    "main.js.map": "/tempterature-example-react/static/js/main.0739d02d.chunk.js.map",
+    "runtime-main.js": "/tempterature-example-react/static/js/runtime-main.89c6b621.js",
+    "runtime-main.js.map": "/tempterature-example-react/static/js/runtime-main.89c6b621.js.map",
+    "static/js/2.4cca6d69.chunk.js": "/tempterature-example-react/static/js/2.4cca6d69.chunk.js",
+    "static/js/2.4cca6d69.chunk.js.map": "/tempterature-example-react/static/js/2.4cca6d69.chunk.js.map",
+    "index.html": "/tempterature-example-react/index.html",
+    "precache-manifest.b47dc929fcc2f368772d19d5922eea91.js": "/tempterature-example-react/precache-manifest.b47dc929fcc2f368772d19d5922eea91.js",
+    "service-worker.js": "/tempterature-example-react/service-worker.js",
+    "static/css/main.724100a6.chunk.css.map": "/tempterature-example-react/static/css/main.724100a6.chunk.css.map",
+    "static/js/2.4cca6d69.chunk.js.LICENSE.txt": "/tempterature-example-react/static/js/2.4cca6d69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c957f4ef.js",
+    "static/js/runtime-main.89c6b621.js",
     "static/js/2.4cca6d69.chunk.js",
     "static/css/main.724100a6.chunk.css",
     "static/js/main.0739d02d.chunk.js"
