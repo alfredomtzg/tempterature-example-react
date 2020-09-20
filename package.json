@@ -2,7 +2,7 @@
   "name": "tempterature-control-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://alfredomtzg.github.io/empterature-example-react",
+  "homepage": "http://alfredomtzg.github.io/tempterature-example-react",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
