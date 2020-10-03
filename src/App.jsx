@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NavBar from './Navbar'
 
 export default function App() {
 
@@ -32,7 +33,8 @@ export default function App() {
   }
 
   return(
-    <div className="app-container" >
+    <section className="app-container" >
+      <NavBar/>
       <div className="temperature-display-container" >
         <div className={`temperature-display ${temperatureColor}`} > {temperatureValue}°C</div>
       </div>
@@ -40,6 +42,6 @@ export default function App() {
         <button onClick={() => increaseTemperature()} >+</button>
         <button onClick={() => decreaseTemperature()}>-</button>
       </div>
-    </div>
+    </section>
   )
 }
